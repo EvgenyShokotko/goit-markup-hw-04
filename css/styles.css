@@ -89,14 +89,24 @@ display: block;
 /* Иконки */
 .link.icon::before {
     content: "";
-    width: 20px;
-    height: 20px;
-    outline: solid 1px darkblue;
+
+    /* outline: solid 1px darkblue; */
     display: inline-block;
-    align-content: center;
-    
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
+.link.icon.mail::before {
+    background-image: url(../images/top/envelope.svg);
+    width: 16px;
+    height: 12px;
+}
+.link.icon.phone::before {
+    background-image: url(../images/top/smartphone.svg);
+    width: 10px;
+    height: 16px;
+}
 
     /* Основные стили шапки */
 .header-logo {
