@@ -267,7 +267,7 @@ body {
 /* Наша команда */
 /* Кнопки соцсети */
 .icons-bottom.team {
-	margin-left: 32px;
+	justify-content: center;
 }
 .bottom-icons.top {
 	border: none;
@@ -375,6 +375,7 @@ body {
 .list.button {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 .li-button:not(:last-child) {
 	margin-right: 10px;
@@ -412,7 +413,6 @@ body {
 .list.service {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 50px;
 }
 .product {
 	width: calc((100% - 60px) / 3);
@@ -464,6 +464,8 @@ body {
 }
 .footer-logo {
 	display: inline-block;
+	margin-bottom: 20px;
+
 	font-family: "Raleway", sans-serif;
 	color: var(--page-maintitle-color);
 	font-size: 26px;
@@ -478,9 +480,6 @@ body {
 	color: var(--accent-colour);
 }
 /* Адрес */
-.adr {
-	margin-top: 20px;
-}
 .link-map {
 	display: block;
 
@@ -500,7 +499,7 @@ body {
 	line-height: 1.71;
 }
 .link-con {
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .link-map:hover,
 .link-map:focus,
