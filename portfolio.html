@@ -16,11 +16,13 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<!-- Navigation, logo -->
+		<!-- Навигация, логотип -->
 		<header class="header">
 			<div class="conteiner main-nav">
 				<a href="index.html" lang="en" class="header-logo">
-					<span class="logo">Web</span>Studio</a>
+					<span class="logo">Web</span>
+					Studio
+				</a>
 				<nav class="header-nav">
 					<ul class="list nav">
 						<li class="li-nav"><a href="index.html" class="link">Студия</a></li>
@@ -29,14 +31,27 @@
 					</ul>
 				</nav>
 				<ul class="header-address list">
-					<li class="li-adr"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-					<li class="li-adr"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+					<li class="li-adr">
+						<a href="tel:+380961111111" class="link icon-contact">
+							<svg class="header-icon" width="16" height="12">
+								<use href="./images/symbol-defs.svg#icon-envelope"></use>
+							</svg>
+							+38 096 111 11 11
+						</a>
+					</li>
+					<li class="li-adr">
+						<a href="mailto:info@devstudio.com" class="link icon-contact">
+							<svg class="header-icon" width="10" height="16">
+								<use href="./images/symbol-defs.svg#icon-smartphone"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
 				</ul>
 			</div>
-			<div class="line"></div>
 		</header>
 		<main>
-			<!-- Our services -->
+			<!-- Наши услуги -->
 			<section class="section serv">
 				<div class="conteiner">
 					<h1 hidden>Наши услуги</h1>
@@ -139,9 +154,10 @@
 				</div>
 			</section>
 		</main>
-		<!-- Our adress, contacts -->
+				<!-- Адрес, контакты -->
 		<footer class="footer">
-			<div class="conteiner">
+			<div class="conteiner flex-bottom">
+				<section class="margin-flex">
 				<a href="index.html" lang="en" class="footer-logo">
 					<span class="logo-bottom">Web</span>Studio</a>
 				<address class="adr">
@@ -164,6 +180,47 @@
 						</li>
 					</ul>
 				</address>
+				</section>
+					<section class="social-section">
+							<h3 class="call">
+								присоединяйтесь
+							</h3>
+						</ul>
+						<ul class="list icons-bottom">
+							<li class="li-sosial">
+								<a class="bottom-icons" href="https://www.instagram.com/"  target="_blank"
+								rel="noreferrer noopener">
+									<svg class="svg" width="20" height="20">
+										<use href="./images/symbol-defs.svg#icon-instagram" ></use>
+									</svg>
+								</a>
+							</li>
+							<li class="li-sosial">
+								<a class="bottom-icons" href="https://twitter.com/" target="_blank"
+								rel="noreferrer noopener">
+									<svg class="svg" width="20" height="20">
+										<use href="./images/symbol-defs.svg#icon-twitter"  width="20" height="20"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="li-sosial">
+								<a class="bottom-icons" href="https://www.facebook.com/" target="_blank"
+								rel="noreferrer noopener">
+									<svg class="svg" width="20" height="20">
+										<use href="./images/symbol-defs.svg#icon-facebook"  width="20" height="20"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="li-sosial">
+								<a class="bottom-icons" href="https://ru.linkedin.com/" target="_blank"
+								rel="noreferrer noopener">
+									<svg class="svg" width="20" height="20">
+										<use href="./images/symbol-defs.svg#icon-linkedin"  width="20" height="20"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						</section>
 			</div>
 		</footer>
 	</body>
