@@ -421,6 +421,7 @@ body {
 }
 .decor-shadow {
 	text-decoration: none;
+	color: var(--primary-text-colour);
 }
 .product:hover,
 .product:focus,
