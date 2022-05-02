@@ -400,9 +400,9 @@ body {
 .nav-buttons:focus {
 	color: var(--page-maintitle-color);
 	background-color: var(--accent-colour);
-	box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+	box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+				0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+				0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* Наши работы */
@@ -419,11 +419,16 @@ body {
 	margin-right: 30px;
 	margin-bottom: 30px;
 }
+.decor-shadow {
+	text-decoration: none;
+}
 .product:hover,
-.product:focus {
-	box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+.product:focus,
+.decor-shadow:hover,
+.decor-shadow:focus {
+	box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+				0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+				0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .product:nth-last-child(-n + 3) {
@@ -512,16 +517,16 @@ body {
 	font-size: 14px;
 	color: var(--page-maintitle-color);
 	line-height: 1.14;
+	margin: 0;
 	margin-bottom: 20px;
+	letter-spacing: 0.03em;
 }
 .icons-bottom {
 	display: flex;
 }
 .flex-bottom {
 	display: flex;
-}
-.social-section {
-	padding-top: 12px;
+	align-items: baseline;
 }
 .margin-flex {
 	margin-right: 70px;
